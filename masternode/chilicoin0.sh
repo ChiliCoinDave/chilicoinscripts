@@ -5,8 +5,8 @@ apt upgrade
 sudo apt-get install nano
 mkdir chilicoin
 cd chilicoin
-wget https://github.com/ChiliCoinProject/ChiliCoin/releases/download/v2.0.0.0/chilicoin-daemon-2.0.0.0-linux64.tar.gz
-tar xzvf chilicoin-daemon-2.0.0.0-linux64.tar.gz
+wget https://github.com/ChiliCoinProject/ChiliCoin/releases/download/v2.0.0.2/chilicoin-daemon-2.0.0.2-linux64.tar.gz
+tar xzvf chilicoin-daemon-2.0.0.2-linux64.tar.gz
 ./chilicoin -daemon
 wget https://raw.githubusercontent.com/ChiliCoinDave/chilicoinscripts/master/masternode/chilicoin1.sh
 chmod +x chilicoin1.sh

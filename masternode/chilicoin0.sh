@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "ChiliCoin Masternode Set-Up"
-echo "Installing Updateson VPS"
+echo "Installing Updates on VPS"
 apt update
 apt upgrade
 echo "Install Nano for text editing"

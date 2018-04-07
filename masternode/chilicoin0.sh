@@ -1,8 +1,11 @@
 #!/bin/bash
 echo "ChiliCoin Masternode Set-Up"
+echo "Installing Updateson VPS"
 apt update
 apt upgrade
+echo "Install Nano for text editing"
 sudo apt-get install nano
+echo "Crete Chilicoin folder and open it"
 mkdir chilicoin
 cd chilicoin
 wget https://github.com/ChiliCoinProject/ChiliCoin/releases/download/v2.0.0.2/chilicoin-daemon-2.0.0.2-linux64.tar.gz
